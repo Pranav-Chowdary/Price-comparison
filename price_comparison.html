@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f4fee51972.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="price_comparison.css">
+</head>    
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://i.postimg.cc/nzBkWgcB/Screenshot-214.png" class="image1" />
+        </a>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input type="text" placeholder="Search product need" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#sectionPhone">Mobile Phone <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#sectionTab">Tablets</a>
+                <a class="nav-link" href="#sectionLap">Laptops</a>
+                <a class="nav-link" href="#sectionElectronics">Other Electronics</a>
+            </div>
+        </div>
+    </nav>
+    <div class="bac">
+        <div id="sectionPhone" class="container">
+            <div class="row">
+                <div class="col-12 pb-3 pt-5 mt-4">
+                    <h1>Mobile Phone</h1>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQMd9ZxYC9m1AyjxOPyli21wzOVL16_EtM842N_oBcwI5hphH0tNOhQhIk1V70J-M1u0WEfa5nC-qVEcyow0QUH8MlhQMyjtkQSxP-QNgctTw116io1NrFjZQ" class="image" />
+                        <p class="para2"><span class="para1">₹22,999.00</span>
+                            <br>OPPO F27 5G,Emerald Green,8+128GB
+                        </p>
+                        <button onclick="display('sectionOPPO')" class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9JREfOL4L1XnGNXXL-KqoMgwXimSP8BcvK2KLBe3ECDo1pTgrWQAo9htOieOH2OfX9aNC9Qi3eNWmTzr2y4T5Y22fU3qxtadDQ5RQjXQ" class="image" />
+                        <p class="para2"><span class="para1">₹150,672.00</span>
+                            <br>Samsung Galaxy S24 Ultra-256GB-Titanium Violet
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDY4WyM_gft55d5cT_-WGPeYS13ndR7HIFaBGY4Ozz8EJt9HmD7Jg4l8ecTv83bXBCZKzfEAhSeXjtoYg7wQBz3ltjUatQwBYpDQzmPErDVK3IDzXmWb2ffw" class="image" />
+                        <p class="para2"><span class="para1">₹13,999.00</span>
+                            <br>Redmi 12 5G(8GB RAM,256GB,Jade Black)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSkPO31s87InDRLevPIYmjmC_nQUGZMiUKkMTuxvvfkCncjjk5lwIlDRVx546C4Z6AXC9BXqYgzws4OsRFUFljaqlNbF9el0KgNtj7vC9NMqNxCsVfq_cjY4Q" class="image" />
+                        <p class="para2"><span class="para1">₹51,999.00</span>
+                            <br>Apple iPhone 13 128 GB, Jade Blue color
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTwfi8aTynSYlMOsYG1Eoc8Ku4FoDM9T8lGzF7DjJ0ZrcdudmAPs2v16gtq-evkmWWA9s1RN1WeB7Flg4VGpatYeed7EnM7nsoIjIFPACSeIel5jAXQRNgKRA" class="image" />
+                        <p class="para2"><span class="para1">₹1,39,999.00</span>
+                            <br>Samsung Galaxy S24 Ultra-512GB-Titanium Gray
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQIvinMDDYmEZ7fQbuCG49yeVM8RryGt3gqKbv6KvIvJzaC0m_SHg-t1BjHXZE43hEypKYBKu4x_VetQA3j9X4m089Xskj3t1ktTzQhG-HjdPzHV7YcxAvr" class="image" />
+                        <p class="para2"><span class="para1">₹34,490.00</span>
+                            <br>Samsung Galaxy S21 FE 5G Smartphone
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTFCp0WVS_IkZeQwzPRvuFWGUJEyEbDlbsextXRWP69Lwem3z9dztQBC6m_dPMoMRNrikwDP-peC7B8DAT7xIsadO5HvGeI&usqp=CAY" class="image" />
+                        <p class="para2"><span class="para1">₹24,999.00</span>
+                            <br>Motorola 50 5G(Marshmallow Blue,12GB RAM)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTrRwqTKmM1VXH7t805pUCWFm_cgXwuEuMp8QRtCBVP_0ad7OuiJjMReoVRdDjuctT3WDzJkJP39i9EPidvGlM657fTQCZQ_K5Ufc0d2u_tVjgMZ4eN_sLAjQ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹23,999.00</span>
+                            <br>Nothing Phone(2a)5G (White,8GB RAM)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT6LeUFlglUKXh3fdi2n8vk_hn2pNo31EwQWQ6q1Iga4gZUaiFe__WlV_-cUYA6v83yxjkm8ieFNV0f368ux0DHWdCpiWYDKp3XYjnfrFgkYALZs9Ffh0dN5A&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹15,999.00</span>
+                            <br>CMF by Nothing Phone(Light Green,6GB RAM)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSy9EpWz-U5zQSHGPypviAEqOiaAJCAhOpKCb0mhbHOqWdsM8NUsHfL-y3YvcIudHtS3N2EnDkF5wYoAAojWkTAJxiObgq4xZvohE1EjXMblH-JbsI0B725NQ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹12,000.00</span>
+                            <br>Vivo V29 5G 8GB RAM, 128GB Storage
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQUTbQ5djwlPD4Hm-pMaYeuakO3sfb1C6PNgYonKcHTGhFiX1ZyHJq-C9wGzvB6VdFv6W0yIXZ7R6QySGDj7TpXOJA-Kef8moyUSVqiJMbq&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹32,999.00</span>
+                            <br>Google Pixel 7 128gb 5G - Snow (Any colour)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpiD6q7tb1mLJ4bwZJLR_RBQl31NUhW-Jls6_q1UJXz5JGNs1R-leGcnA5TDsnY-6m6CAXoR9Y26G8OB7pdfbZB-qthPjIk77uaUwg6X2YunXINulru2FR&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹15,253.39</span>
+                            <br>Xiaomi 13 (Ceramic Black,256GB)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionTab" class="container">
+            <div class="row">
+                <div class="col-12 pb-3 pt-4 mt-4">
+                    <h1>Tablets</h1>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHBmJwQjSc_FYMQyXh_jY_Zx2DhGIfwUIQxYu6q-fvNGIb4_TRJwtwybofN9wlgbvIjTEaUruyegj9O35JA6SmOeWn1RwNEmx8yHzLrIqMVQS_tNr0URygNw&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹19,999.00</span>
+                            <br>Oneplus Pad Go 8 Gb Ram 128 Gb Rom 11.35 Inch
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTXp7tu1f5oj9Xqh2u2rWqiJ5J1uqvHF2WdOxlINKgOp9BTNKk9UFpQBRLhkPq_tnCi6kMj6mmmTYeOT5uDWSuo22MVW5WhtV4w-uYOuFC8xeMC-k4DjLua&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹12,999.00</span>
+                            <br>Redmi Pad SE 27.94cm(11 inch)Tablet
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTT4K7wvmP68Ogg7mOiDorzjz3uKsnPns3mvXa8a29x04Uf9ZxamcUUebAsU7vpCy-JHC9Y7IH_yrLsduEkcfU_wpw3Y4DFZhy6O8HGZJFM6AjuQoLfiA-_&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹34,999.00</span>
+                            <br>Samsung Galaxy Tab S7 FE 31.5cm(12.4inch) Large Display
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQFjv2hQ4ogEbIi8lrrokn46dbZg3EG1OGz2qtXtmFg-AIlQ_YcgMfm-yWsNAtrsQaFt-SgW_aIZdgLJ12App0S_ZkGTnva9TN4zGeCzy8JiQHMJ2-pQaJPgw&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹17,990.00</span>
+                            <br>Lenovo Tab M11 8GB Ram 128GB Rom 11.0Inch
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTSa9unyCquGp37ypqeAkWUyC-kBBk2Hcp2Nhwiu_nfOEZTQsFbAu_Hh2PfbkaHRDrZbF-uV_95hfqeqSlgsxunxXNuceZiZmdxTqXQkfwFZLOIZvMGTFl6Jg&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹12,235.59</span>
+                            <br>Apple iPad Air 128GB 4G-Titanium Gray
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS8fko2DgJZFYaM5i4stXWir_OwT2kcyBLsNSGZ8JirZWECVjz4lhYQnywjI7FWfUP6TAQ0jfQwSd1zXFxuTvWlYp-uZdVY&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹43,536.94</span>
+                            <br>VivoPad 3Pro 13.0inch,128GB Blue
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNE8TP6uA0IJeUCW-oJMPDzTV3kyqRPhaZAZUiiF_NAW7SCXUoD2o0QfgvmbNwqqwK7U9p4Y5_YBzcgCpJLVMOjTtY5mqAwEoJAlqCxhKLTVNINUjbGpcM&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹34,900.00</span>
+                            <br>Apple iPad 10.9inch 10th Gen 2022Blue
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzWaW1NCK8cCkcNbHvNqTmi2Zze-7NFHnTva9CXgZN-XP6MYfbMP6Jw1Fl3-DU9-7LgXchxRgZXLdH40k_qOAQSFEhWIzRhPqvzJ9EONU0bF35RaJva50cwA&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹26,998.00</span>
+                            <br>Lenovo Tab P12 Wi-Fi Android Tablet 12.7Inch
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRTbWiDd3AVfc69KJEF9vUtO31gKChEK0KCJGXMDMNESe7B3EBl5b_T8oedtN5eEoQjEAhuFGaqz3UD18JHCEXURRbCDbe5gp4AzmlbxIXrRctNnhch-PQ6&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹67,559.00</span>
+                            <br>Google Pixel Tablet,Charging Speaker Dock
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTTGR0iri_M-wfMnzTPzzJjVKd9ItmEwhSOTYzva9ZLgv_vJdS8CeRnLrmfxSgIjwEeyrbGQPrW419AJBYMZgMiJxtqEmRghWNXCgPSozWl00QaUAOnIqbK&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹12,000.00</span>
+                            <br>Samsung Galaxy Tab A9+ 8GB 128GB Tablet
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSQ50AymMaYa3FiweRilSZQ9YdrCqBPlRBmtgg1C0Wz103MHxcASFUJzyiRAuOEzNRlgYLEjHgcz6dVIyejDbPlZXYfygo9etiy7uVdFZ7qN7KqNn5--fAm&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹24,999.00</span>
+                            <br>Redmi Pad Pro 5g 8 Gb Ram 128 Gb Rom 12.1Inch
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQMVCGysfMrUFkQQZ9QthwXvSkjHGHX8GExZH55bQGCG-70xQL1OkEZlfNnAzh104qIJlpgRPrBSQ6L0VMvvFpp0aKC79s1s3B48iiHUIrBQ9nUXOky9F62xg&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹15,253.39</span>
+                            <br>Xiaomi 13 (Ceramic Black,256GB)
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionLap" class="container">
+            <div class="row">
+                <div class="col-12 pb-3 mt-4 pt-4">
+                    <h1>Laptops</h1>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQGf1YQS_QTAleJPuS40lbyq3j1Kb1znKbczpgTOmLdE1MGp2w3ZPeXwni_3XMZd0cAI5Cjzl1xSjbK4SHS7xpDF8COYeEj51hM3e8zDjuO3796og_1IzvEXQ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹1,02,990.00</span>
+                            <br>Microsoft Surface Pro 9 Intel Core i7 12th Gen
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeAa1u040jBV8j3DYSmd6RxcNNBwZkmxeEaCMqUkDxCpDEsWvaeEuDsMVMHhbn2aCbrfM05SSDfBoOpoIdbUPZLhursnGlBfj4tDE0XLRv2I54fNGHJX4o&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹71,990.00</span>
+                            <br>Samsung Galaxy Book4 Intel Core i7 13th Gen Thin
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRB_3-KvrjDa9RWI_EFUD8aWv9A_prD4ZgRkifb-1N9sH1sQsYVj0_48UAu7qeTdaXhsLsWr_Q1NQwVmJODj1METZ6I4FF-Q0vEbMO_2EleSA-dclhDMzj2pQ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹51,990.00</span>
+                            <br>Honor Magic Book X16Pro,13th Gen Intel i5
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTuBS_Tm7045_1oedr8gFIOOuTbT613-2DBDkOj7l9cGbH35A02GduRmJkpFOJ271s-C8VEXs08i2uJdokjhlyaJ0Y9o3h5C9vSjVCF9-ajANW7DatnBelH&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹57,728.00</span>
+                            <br>Lenovo Loq Intel Core I5 12th Gen 8GB/512GB
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRbWxLLekmwRfqIUPYu_kmIOSBa4ltWoxWNdIheFLm85m6tNA6bXTuyWdc26ysHtfLilVRw1H-PjMRZknBxzKEikWlWPISu16qjJFQMOUVrFspUGTnbUuvo_w&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹50,999.00</span>
+                            <br>ASUS TUF Gaming F15-11th Gen Intel Core i5
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS3l_3w2NjQtJCRGyeR1Zj4oeDHviX4kUxgusGeGmqY0BauP61vIwXPld0dCNJ6-ImnfDN782DkhZT9RJOk61V-YDzpaiWcimUdcJVe24honKgnUhcPvuumdg&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹50,990.00</span>
+                            <br>Acer Aspire 7 Intel Core I5 12th Gen 16GB/512GB
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTg_tVMul5dZFNi2jByzeLvuEfKuymE_FLX1UrC6aFy0Ih02Y1xibKO8n_XuoHecJnmYGIygn3n4Jeu97gLoTxzcF56gYQZf08cV1FpFyWMuLCC6QMZmywJ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹95,046.00</span>
+                            <br>Microsoft New Surface 13.5 intel 12 Gen i5
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQLyYoyLG2I6q8mT0RcnAZCMGq5m8Dtp6OIox5G0hCTIa6dEp9ezsjgqPaR7kAGbp97s25P0dwEC6XrMBLFfw4fJG0jnqG8j4Cmlgtc3vvLPXAbAhqyS_yZ&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹79,550.00</span>
+                            <br>MSI Modern 15 H,Intel 13th Gen i9-13900H,40CM
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSY9js70AWrQxp41ZqhiqudZ7mlGqjsO7YDP46GmiESzUD_niUp-_MhTO4-D8KKHuJleezSLAT3KCyav0uQkIEgC3Bb0hCH0ej6ombyqfN-UOlPox6qTWiFrA&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹77,990.00</span>
+                            <br>ASUS Vivobook S14 Flip laptop 13th Gen
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQdIujRaHP6RsCk5rrzyDQvxxQAxA7u4PbOIFX0We1i2kVrfcbLKTK6zNNIMgrO1STuy3i-8UauJjHdoJH2cubXvG5Vam_GQSAUxy4PTxyiNA1s_vh8kFqyhA&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹29,652.54</span>
+                            <br>Zebronics Pro Series Z Intel Core I5 12th Gen
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5zosMAuB1Mo1zgrY7aiCBKpn1B9ZfMkUd_QqASsqyiSkPuurwmF0zdJ2gXfI9z9NjFmBPV8xRVy_fFKnAxHHTtMd31pCttZR1xBYDp-v9bJFJ37qML-QP&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹55,390.01</span>
+                            <br>Dell Inspiron 15 Windows11 &12Gen Intel i7
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-xl-2">
+                    <div class="background m-1 p-3">
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSKOkxl3ExjxNZo57bf3pNvA993TYyqEGvHEkv_FvaoFWaUMAWiESaVLU-kXMKUXpTebHsbEzKnCjO4d9cebDwlXousnycO36cpHI_O_UsySM10a0yRAV_E&usqp=CAE" class="image" />
+                        <p class="para2"><span class="para1">₹40,980.00</span>
+                            <br>Hp 15s Intel Core I3 13th Gen-8GB/512GB
+                        </p>
+                        <button class="bg bg-primary button">Know more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionElectronics" class="container">
+        <div class="row">
+            <div class="col-12 pb-3 mt-4 pt-4">
+                <h1>Other Electronics</h1>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSU7JaVxVfZqk4262DNglvrFoxIcd_t64HTGnezKfj-WWMLYzmf1njMHXlHHQdluYrKlbZvksFGStFyyCyoVbqq-opOgayFJBHHhlWZPn_n6byRLhPrQo_9" class="image" />
+                    <p class="para2"><span class="para1">₹3,999.00</span>
+                        <br>boAt Kids Wanderer Smart Watch (Onesize)
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRTEnuawcIKlX0_VqjVUqx30ouokzUhUZsMhdvNgnRnxv5lr6ALuWdqB-moa1Dw9aE3qP5uXwrrYGgL7rbOFdQz8e_UCh-wu6oNM4smx4Q" class="image" />
+                    <p class="para2"><span class="para1">₹18,119.42</span>
+                        <br>Apple AirPods Pro (2nd Gen)
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSME6Nrrusgo4ZgwMA9y8ns4pYk22jspDIE4ZUDVSM2Sz-LZP2AD2v5DR_etRPue2hImibg7xaCio-qG4Dk6hwBSMyfcaFjFuteYp2QIq0" class="image" />
+                    <p class="para2"><span class="para1">₹29,947.38</span>
+                        <br>Sonos Ace Over Ear Headphones
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSY-x2COTJ1pg_X2I4w3w9AmHbo6XJOVbr1broQHjYrO8zO_V1QGDa3mtMX7HswqWzGhwTxXtEABY2AQZWSrZbZhcQd0fHqFaJluYV7I21dt3dfe83rrZyT" class="image" />
+                    <p class="para2"><span class="para1">₹1,599.00</span>
+                        <br>Apple 20W USB-C Power Adapter for iPhone AirPods Max
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQdN2i53j5lBhyZtalKeiXV99n9Dp1Ag21UKLo1I-zHvlY8GU5FsVG2K1wG8OnXK4O3qnQwSIGr-mpb5DDnCg1DA1bLnney995BzuO0K0b5G-_68qo3DsnCJA&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,749.00</span>
+                        <br>Ambrane Wise Glaze with 1.78" Amoled Display,BT Calling
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQIPMqqtmDlZDhhR6mGefrmuA7keFz8n5grNcCzWek1mpF4TEAnLAbybCLohJJYXiasfRuEq7FJASo-GapYpzTOYeJFW6yiSTz5PZguUcfP0Ji_ta3oSH55yg&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹3,811.02</span>
+                        <br>Echo Dot (Black) Combo with Wipro 16A Smart Plug
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRvx4nFx1296qcC_J5_QBeP3eWNDpZihNXBa0oktnPRU2TlO9dhTYQONGog9sC6fTmxeCwNpX5FAZpI1Y57igMcFJOlucaWvIUa_s7h_N3b2kCmZ91aiXx2Vw&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,399.00</span>
+                        <br>Boult Audio Z40 Pro with 100H Playtime
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS0N1rKxXWslcO_cK6wKlQrWQDtoQ-sH_dVRu40QFOloPhbbMEbZedMroaZYyNzHYA7c4r7DI6hSV5L_iFzk4fiGldmv2zI8Yg9DDQYT5u_H0f0sWxy7MEKbg&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,999.00</span>
+                        <br>4K Mini PC Box Smart TV Box with 2GB Ram
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQTBwqs9H34t45SZeRMMO34VzGQGHFC1JjUuXknEpmZ5vqEN9Efo9Tevtw1QZ3A_ycV_29BP28_pENrzTD75m1QZpjZ8qI8HMJUBQxyYqzXzaOmHCfcH8a4&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,499.00</span>
+                        <br>boAt Rockerz 425 Wireless Headphones
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSmXfUSt7vZNBzc4jpe-x0Ifz33pMseDu9GS3RQThFd-_e5RCL2rVrVFEwd-UAuPeq7bnf3jKsIFs74ZObglUw_HAekmlMLd2BeYKjevQKP0Vtn3FKNHhsQLQ&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹699.00</span>
+                        <br>ZEBRONICS Zeb Wonderbar 10 USB Computer Speaker
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCou5OJmAkzCVqG-p2z5HuvDp9GK9M3RfbaGX70nCmkNgAt_jQuFrqhrjxO83ASbdtq7cIwrFH9R5f4CRWpHieX94gjMMstoGusyJU0hlNlYfYD3kL6se0&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,999.00</span>
+                        <br>Clubics Portable Mini Latest Led Projector With 1080p Video Quality
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-xl-2">
+                <div class="background m-1 p-3">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQWo9Qu8WtBlaUuggWdK12Hq7iMdG9qzWeoL0YPrG-6YFiEGU-_pKrP4fO69g6f4AlJwwy87kLqH2lIhQtVDn4_XAubqjwB_DnEQnaVkkdRrzlGDmZXxFe2qw&usqp=CAE" class="image" />
+                    <p class="para2"><span class="para1">₹1,920.00</span>
+                        <br>D-LINK DIR-825 AC1200 WiFi Gigabit Router
+                    </p>
+                    <button class="bg bg-primary button">Know more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

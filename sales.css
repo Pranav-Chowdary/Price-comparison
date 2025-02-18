@@ -1,0 +1,304 @@
+.Ec-image-nav-section {
+    height: 60px;
+    width: 150px;
+}
+
+.ws-background-section {
+    background-color: white;
+}
+
+.service-head-section {
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.service-para-section {
+    color: #616c7c;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.text-service {
+    text-align: center;
+}
+
+.service-image-section {
+    height: 110px;
+    width: 110px;
+}
+
+.service-card-head-section {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.service-card-para-section {
+    color: #7b8794;
+    font-family: "Roboto";
+}
+
+.product-background-section {
+    background-color: white;
+}
+
+.op-mainhead-section {
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.op-headphone-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.op-laptop-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.op-card-head-section {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.op-para-section {
+    color: white;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+.op-button-section {
+    background-color: white;
+    color: #ff9f00;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+}
+
+.op-modal-head-section {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.op-modal-para-section {
+    color: #183b56;
+    font-family: "Roboto";
+}
+
+.op-modal-span {
+    color: #323f4b;
+    font-weight: 700;
+}
+
+.op-anchor-section {
+    color: #ff9f00;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.text-product {
+    text-align: right;
+}
+
+.offer-background-section {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+}
+
+.os-image-offer {
+    height: 360px;
+    width: 360px;
+}
+
+.text-offer {
+    text-align: center;
+}
+
+.os-image-tools {
+    height: 260px;
+    width: 430px;
+}
+
+.os-head-section {
+    color: #ad2167;
+    font-family: "Bree Serif";
+    font-size: 35px;
+}
+
+.os-para-section {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+.os-span-section {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.os-image-percent {
+    height: 120px;
+    width: 400px;
+}
+
+.os-image1-offer {
+    height: 70px;
+    width: 70px;
+}
+
+.Trending-background-section {
+    background-color: white;
+}
+
+.blog-head-section {
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.blog-image-section {
+    width: 100%;
+}
+
+.blog-para1-section {
+    color: #959ead;
+    font-family: "Roboto";
+}
+
+.blog-head-card-section {
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blog-para2-section {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 23px;
+}
+
+.blog-anchor-section {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.ed-background-section {
+    background-color: #f5f7fa;
+    font-family: "Roboto";
+}
+
+.ed-mainhead-section {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.ed-card-head-section {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.ed-image-section {
+    height: 135px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.text-deals {
+    text-align: center;
+}
+
+.ed-card-section {
+    border-radius: 10px;
+}
+
+.ed-para-section {
+    color: #1f2933;
+    font-size: 20px;
+}
+
+.ed-anchor-section {
+    color: #ff9f00;
+    font-weight: bold;
+}
+
+.ed-tv-section {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cu-background-section {
+    background-color: #f5f7fa;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.cu-head-section {
+    color: #183b56;
+    font-weight: bold;
+}
+
+.cu-button-section {
+    color: #ff9f00;
+    border-color: #ff9f00;
+    background-color: transparent;
+    border-width: 2px;
+    height: 40px;
+    width: 120px;
+}
+
+.fs-background-section {
+    background-color: #0d2436;
+    font-family: "Roboto";
+}
+
+.text {
+    text-align: center;
+}
+
+.fs-image-section {
+    height: 70px;
+    width: 180px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.fs-icon-section {
+    background-color: #152c3e;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.fs-para-section {
+    color: #9aa5b1;
+}
+
+.fs-head-section {
+    color: #5a7184;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fs-para1-section {
+    color: #5a7184;
+    font-size: 17px;
+}
